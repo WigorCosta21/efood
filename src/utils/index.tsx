@@ -1,6 +1,3 @@
-import { useSelector } from "react-redux";
-import { RootReducer } from "../store";
-
 export const formatPrice = (price: number | undefined) => {
   if (price !== undefined) {
     return price.toLocaleString("pt-BR", {
