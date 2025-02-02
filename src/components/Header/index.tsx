@@ -33,7 +33,8 @@ export const Header = ({ name, cart, info, banner, size }: Props) => {
             {cart}
           </span>
         </S.Menu>
-        <S.Info>{info}</S.Info>s<S.Banner>{banner}</S.Banner>
+        <S.Info>{info}</S.Info>
+        <S.Banner>{banner}</S.Banner>
       </S.Header>
     </Container>
   );
